@@ -1,0 +1,15 @@
+[project]
+name = "tax_prof_blog_filtering"
+version = "0.1.0"
+description = "A Python script to filter the RSS feed for Tax Prof Blog and to send an email with filtered links."
+requires-python = ">=3.10"
+
+dependencies = [
+    "feedparser",
+    "pytz",
+]
+
+[tool.uv]
+# Optional: Specify groups of dependencies (like dev dependencies)
+dev-dependencies = [
+]
